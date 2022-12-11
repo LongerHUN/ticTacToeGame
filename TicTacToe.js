@@ -46,7 +46,7 @@ function changePlayer() {
 }
 
 function botPlayer() {
-  let botSelect = Math.round(Math.random() * 9);
+  let botSelect = Math.round(Math.random() * 8);
   if (options[botSelect] == "") {
     options[botSelect] = currentPlayer;
     cells[botSelect].textContent = currentPlayer;
